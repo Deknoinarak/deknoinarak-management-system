@@ -1,0 +1,17 @@
+# Turn on RewriteEngine
+RewriteEngine on
+
+#Rewrite Condition
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Make url look clean
+RewriteRule ^article/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) article.php?id=$1&title=$2 [NC,L]
+
+RewriteRule ^users/([0-9a-zA-Z]+) users.php?id=$1 [NC,L]
+
+RewriteRule ^index/([0-9a-zA-Z]+) index.php?page=$1 [NC,L]
+
+# Get .php, .html out
+RewriteRule ^(.*)$ $1.php [NC,L]
+RewriteRule ^(.*)$ $1.html [NC,L]
