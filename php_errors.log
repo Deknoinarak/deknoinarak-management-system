@@ -1,14 +1,6 @@
-[15-Nov-2021 14:38:34 UTC] PHP Warning:  include(/../inetpub/cms/deknoinarak-cms-core/includes/pages/home.php): Failed to open stream: No such file or directory in C:\inetpub\cms\deknoinarak-cms-core\index.php on line 9
-[15-Nov-2021 14:38:34 UTC] PHP Warning:  include(): Failed opening '/../inetpub/cms/deknoinarak-cms-core/includes/pages/home.php' for inclusion (include_path='.;C:\php\pear') in C:\inetpub\cms\deknoinarak-cms-core\index.php on line 9
-[15-Nov-2021 14:38:34 UTC] PHP Warning:  include(/../inetpub/cms/deknoinarak-cms-core/includes/pages/home.php): Failed to open stream: No such file or directory in C:\inetpub\cms\deknoinarak-cms-core\index.php on line 12
-[15-Nov-2021 14:38:34 UTC] PHP Warning:  include(): Failed opening '/../inetpub/cms/deknoinarak-cms-core/includes/pages/home.php' for inclusion (include_path='.;C:\php\pear') in C:\inetpub\cms\deknoinarak-cms-core\index.php on line 12
-[15-Nov-2021 14:38:34 UTC] PHP Warning:  include(/../inetpub/cms/deknoinarak-cms-core/includes/pages/home.php): Failed to open stream: No such file or directory in C:\inetpub\cms\deknoinarak-cms-core\index.php on line 15
-[15-Nov-2021 14:38:34 UTC] PHP Warning:  include(): Failed opening '/../inetpub/cms/deknoinarak-cms-core/includes/pages/home.php' for inclusion (include_path='.;C:\php\pear') in C:\inetpub\cms\deknoinarak-cms-core\index.php on line 15
-[16-Nov-2021 14:09:39 UTC] PHP Warning:  require_once(/../inetpub/cms/deknoinarak-cms-core/includes/header.php): Failed to open stream: No such file or directory in C:\inetpub\github\deknoinarak-management-system\index.php on line 3
-[16-Nov-2021 14:09:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../inetpub/cms/deknoinarak-cms-core/includes/header.php' (include_path='.;C:\php\pear') in C:\inetpub\github\deknoinarak-management-system\index.php:3
-Stack trace:
-#0 {main}
-  thrown in C:\inetpub\github\deknoinarak-management-system\index.php on line 3
-[16-Nov-2021 14:10:36 UTC] PHP Warning:  Undefined array key "page" in C:\inetpub\github\deknoinarak-management-system\index.php on line 7
-[16-Nov-2021 14:16:25 UTC] PHP Warning:  Undefined array key "page" in C:\inetpub\github\deknoinarak-management-system\index.php on line 7
-[16-Nov-2021 14:16:33 UTC] PHP Warning:  Undefined array key "page" in C:\inetpub\github\deknoinarak-management-system\index.php on line 7
+[17-Nov-2021 11:36:54 UTC] PHP Warning:  include(/../inetpub/github/deknoinarak-management-system/includes/error/404.php): Failed to open stream: No such file or directory in C:\inetpub\github\deknoinarak-management-system\index.php on line 19
+[17-Nov-2021 11:36:54 UTC] PHP Warning:  include(): Failed opening '/../inetpub/github/deknoinarak-management-system/includes/error/404.php' for inclusion (include_path='.;C:\php\pear') in C:\inetpub\github\deknoinarak-management-system\index.php on line 19
+[17-Nov-2021 11:44:30 UTC] PHP Warning:  include(/../inetpub/github/deknoinarak-management-system/includes/error/404.php): Failed to open stream: No such file or directory in C:\inetpub\github\deknoinarak-management-system\index.php on line 19
+[17-Nov-2021 11:44:30 UTC] PHP Warning:  include(): Failed opening '/../inetpub/github/deknoinarak-management-system/includes/error/404.php' for inclusion (include_path='.;C:\php\pear') in C:\inetpub\github\deknoinarak-management-system\index.php on line 19
+[17-Nov-2021 11:44:51 UTC] PHP Warning:  include(/../inetpub/github/deknoinarak-management-system/includes/error/404.php): Failed to open stream: No such file or directory in C:\inetpub\github\deknoinarak-management-system\index.php on line 19
+[17-Nov-2021 11:44:51 UTC] PHP Warning:  include(): Failed opening '/../inetpub/github/deknoinarak-management-system/includes/error/404.php' for inclusion (include_path='.;C:\php\pear') in C:\inetpub\github\deknoinarak-management-system\index.php on line 19

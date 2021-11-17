@@ -1,7 +1,13 @@
 # Turn on RewriteEngine
 RewriteEngine on
 
-#Rewrite Condition
+# Rewrite Condition For Rewrite url
+RewriteCond %{REQUEST_FILENAME}\.php !-f
+
+# Rewrite URL
+RewriteRule ^index/([a-zA-Z0-9]+)$ index.php?page=$1 [NC, L]
+
+# Rewrite Condition
 RewriteCond %{REQUEST_FILENAME} !-f
 
 # Get .php out
