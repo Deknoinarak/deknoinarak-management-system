@@ -1,4 +1,7 @@
 <?php
+    // Require Functions
+    require_once "/../inetpub/github/deknoinarak-management-system/includes/functions/functions.php";
+
     // Includes Header
     require_once "/../inetpub/github/deknoinarak-management-system/includes/header.php";
     require_once "/../inetpub/github/deknoinarak-management-system/includes/navbar.php";
@@ -14,6 +17,12 @@
         }
         elseif ($_GET['page'] == 'aboutus') {
             include('/../inetpub/github/deknoinarak-management-system/includes/pages/aboutus.php');
+        }
+        elseif ($_GET['page'] == 'portfolio') {
+            include('/../inetpub/github/deknoinarak-management-system/includes/pages/portfolio.php');
+        }
+        elseif ($_GET['page'] == 'contact') {
+            include('/../inetpub/github/deknoinarak-management-system/includes/pages/contact.php');
         }
         else {
             include('/../inetpub/github/deknoinarak-management-system/includes/error/404.php');
