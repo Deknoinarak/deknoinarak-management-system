@@ -1,10 +1,12 @@
 <header>
     <nav>
         <div class="logo">
+            <!-- Change To Your Website Name! -->
             WEBSITE
         </div>
 
         <div class="menu">
+            <!-- Add Page Link Here!!! -->
             <a href="../../../index/home">HOME</a>
             <a href="../../../index/portfolio">PORTFOLIO</a>
             <a href="../../../index/project">PROJECT</a>
@@ -12,6 +14,7 @@
             <a href="../../../index/contact">CONTACT</a>
         </div>
 
+        <!-- DON'T TOUCH THIS!!!!! -->
         <div class="hamburger">
             <span></span>
             <span></span>
