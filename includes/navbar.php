@@ -9,7 +9,7 @@
             <!-- Add Page Link Here!!! -->
             <a href="../../../index/home">HOME</a>
             <a href="../../../index/portfolio">PORTFOLIO</a>
-            <a href="../../../index/project">PROJECT</a>
+            <a href="../../../article">ARTICLE</a>
             <a href="../../../index/aboutus">ABOUT</a>
             <a href="../../../index/contact">CONTACT</a>
         </div>
@@ -22,3 +22,4 @@
         </div>
     </nav>
 </header>
+<div class="page-container">

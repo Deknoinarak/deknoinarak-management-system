@@ -7,6 +7,12 @@ RewriteCond %{REQUEST_FILENAME}\.php !-f
 # Rewrite URL
 RewriteRule ^index/([a-zA-Z0-9]+)$ index.php?page=$1 [NC, L]
 
+RewriteCond %{REQUEST_FILENAME}\.php !-f
+RewriteRule ^article/([a-zA-Z0-9]+)$ article.php?id=$1 [NC, L]
+
+RewriteCond %{REQUEST_FILENAME}\.php !-f
+RewriteRule ^article/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)$ article.php?id=$1&title=$2 [NC, L]
+
 # Rewrite Condition
 RewriteCond %{REQUEST_FILENAME} !-f
 

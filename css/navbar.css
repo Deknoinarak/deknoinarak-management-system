@@ -71,13 +71,40 @@ header {
 
 .menu {
     display: none;
+    margin: 0 -16px;
+    justify-content: flex-end;
+    transition: .4s;
 }
 
-@media (min-width: 768px) {
+.menu a {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 99px;
+    margin: 0 16px;
+    transition: .4s;
+}
+
+.menu a.is-active, .menu a:hover {
+    background-color: #8c38ff;
+}
+
+@media (min-width: 900px) {
     .hamburger {
         display: none;
     }
     .menu {
         display: block;
     }
+}
+
+.menu.is-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu.is-active a {
+    margin: 8px 0;
 }

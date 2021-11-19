@@ -12,9 +12,6 @@
         if ($_GET['page'] == 'home') {
             include('/../inetpub/github/deknoinarak-management-system/includes/pages/home.php');
         }
-        elseif ($_GET['page'] == 'project') {
-            include('/../inetpub/github/deknoinarak-management-system/includes/pages/project.php');
-        }
         elseif ($_GET['page'] == 'aboutus') {
             include('/../inetpub/github/deknoinarak-management-system/includes/pages/aboutus.php');
         }
