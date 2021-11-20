@@ -8,29 +8,26 @@ const URLPathname = window.location.pathname;
 console.log("Now You're In: " + window.location.pathname);
 
 // Change Title Of The Document
-if (document.querySelector("article-page")) {
-    document.title = "Article" + " - " + webName;
+if (URLPathname == "/index/home") {
+    document.title = "Home" + " - " + webName;
+}
+else if (URLPathname == "/index/portfolio") {
+    document.title = "Portfolio" + " - " + webName;
+}
+else if (URLPathname == "/index/project") {
+    document.title = "Project" + " - " + webName;
+}
+else if (URLPathname == "/index/contact") {
+    document.title = "Contact" + " - " + webName;
+}
+else if (URLPathname == "/index/aboutus") {
+    document.title = "About Us" + " - " + webName;
+}
+else if (URLPathname.includes("/article"))) {
+    document.title = "About Us" + " - " + webName;
 }
 else {
-    switch (URLPathname) {
-        case "/index/home":
-            document.title = "Home" + " - " + webName;
-            break;
-        case "/index/portfolio":
-            document.title = "Portfolio" + " - " + webName;
-            break;
-        case "/index/project":
-            document.title = "Project" + " - " + webName;
-            break;
-        case "/index/contact":
-            document.title = "Contact" + " - " + webName;
-            break;
-        case "/index/aboutus":
-            document.title = "About Us" + " - " + webName;
-            break;
-        default:
-            document.title = "404 Page Not Found" + " - " + webName;
-    }
+    document.title = "404 Page Not Found" + " - " + webName;
 }
 
 // Debug
