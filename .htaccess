@@ -11,7 +11,7 @@ RewriteCond %{REQUEST_FILENAME}\.php !-f
 RewriteRule ^article/([a-zA-Z0-9]+)$ article.php?id=$1 [NC, L]
 
 RewriteCond %{REQUEST_FILENAME}\.php !-f
-RewriteRule ^article/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)$ article.php?id=$1&title=$2 [NC, L]
+RewriteRule ^article/([a-zA-Z0-9]+)/^article/([0-9]+)/([a-zA-Z0-9!@&-, ]+)$ article.php?id=$1&title=$2 [NC, L]
 
 # Rewrite Condition
 RewriteCond %{REQUEST_FILENAME} !-f
