@@ -8,7 +8,7 @@ const URLPathname = window.location.pathname;
 console.log("Now You're In: " + window.location.pathname);
 
 // Change Title Of The Document
-if (document.title == "article") {
+if (document.querySelector("article-page")) {
     document.title = "Article" + " - " + webName;
 }
 else {

@@ -1,16 +1,12 @@
 <?php
     // Require Functions
     require_once "/../inetpub/github/deknoinarak-management-system/includes/functions/functions.php";
-    ?>
-        <script>
-            document.title = "article";
-            console.log(document.title);
-        </script>
-    <?php
+
     // Includes Header
     require_once "/../inetpub/github/deknoinarak-management-system/includes/header.php";
     require_once "/../inetpub/github/deknoinarak-management-system/includes/navbar.php";
 ?>
+    <article-page></article-page>
     
     <h1>Article</h1>
 
