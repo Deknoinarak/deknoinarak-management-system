@@ -1,0 +1,10 @@
+[20-Nov-2021 16:25:15 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\inetpub\github\deknoinarak-management-system\includes\pages\article.php:5
+Stack trace:
+#0 C:\inetpub\github\deknoinarak-management-system\article.php(10): include()
+#1 {main}
+  thrown in C:\inetpub\github\deknoinarak-management-system\includes\pages\article.php on line 5
+[20-Nov-2021 16:25:33 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\inetpub\github\deknoinarak-management-system\includes\pages\article.php:5
+Stack trace:
+#0 C:\inetpub\github\deknoinarak-management-system\article.php(10): include()
+#1 {main}
+  thrown in C:\inetpub\github\deknoinarak-management-system\includes\pages\article.php on line 5

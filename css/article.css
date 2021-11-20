@@ -1,0 +1,112 @@
+/* CSS DOCUMENT / ARTICLE */
+
+.blog-post__img {
+    height: 35rem;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.28);
+}
+
+.blog-post__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.article-container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.blog-post {
+    background-color: #fff;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+}
+
+.blog-post__info {
+    padding: 2rem;
+}
+
+.blog-post__data {
+    margin-bottom: 1rem;
+}
+
+.blog-post__data, .blog-post__icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.blog-post__icon-text {
+    margin-right: 1rem;
+}
+
+.blog-post__icon-text .icon {
+    color: #8c38ff;
+    margin-right: 0.4rem;
+}
+
+.blog-post__cta {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-post__cta .btn {
+    padding: 1rem 3rem;
+    display: inline-block;
+    background-color: #8c38ff;
+    border-radius: .6rem;
+    color: #fff;
+    text-decoration: none;
+    border: .2rem solid #8c38ff;
+    transition: .2s;
+}
+
+.blog-post__cta .btn:hover {
+    background-color: transparent;
+    border: .2rem solid #8c38ff;
+    color: #8c38ff;
+}
+
+.blog-post__cta button {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+    outline: none;
+    background-color: transparent;
+    border: .2rem solid #8c38ff;
+    cursor: pointer;
+    color: #8c38ff;
+    transition: .2s;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.blog-post__cta button:hover {
+    color: #FFF;
+    background-color: #8c38ff;
+}
+
+/* Responsive Part */
+@media screen and (min-width: 900px) {
+    .blog-post {
+        display: flex;
+        height: 20rem;
+        overflow: hidden;
+    }
+
+    .blog-post__img {
+        height: auto;
+        flex: 1;
+    }
+
+    .blog-post__info {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
