@@ -13,24 +13,23 @@ hamburger.addEventListener('click', function() {
 const links = document.querySelectorAll(".menu a");
 
 // Switch Navbar Links Active
-switch (URLPathname) {
-    case "/index/home":
-        links[0].classList.add("is-active");
-        break;
-    case "/index/portfolio":
-        links[1].classList.add("is-active");
-        break;
-    case "/index/project":
-        links[2].classList.add("is-active");
-        break;
-    case "/index/aboutus":
-        links[3].classList.add("is-active");
-        break;
-    case "/index/contact":
-        links[4].classList.add("is-active");
-        break;
-    default:
-        break;
+if (URLPathname == "/index/home") {
+    links[0].classList.add("is-active");
+}
+else if (URLPathname == "/index/portfolio") {
+    links[1].classList.add("is-active");
+}
+else if (URLPathname.includes("/article")) {
+    links[2].classList.add("is-active");
+}
+else if (URLPathname == "/index/aboutus") {
+    links[3].classList.add("is-active");
+}
+else if (URLPathname == "/index/contact") {
+    links[4].classList.add("is-active");
+}
+else if (URLPathname == ("/article/")) {
+
 }
 
 // Debug

@@ -19,6 +19,16 @@
     margin: 2rem auto;
 }
 
+.article-container-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.article-container-grid-other {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .blog-post {
     background-color: #fff;
     box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
@@ -88,6 +98,43 @@
 .blog-post__cta button:hover {
     color: #FFF;
     background-color: #8c38ff;
+}
+
+.article-title {
+    margin-bottom: 1rem;
+}
+
+/* Recommend Post Card */
+
+.blog-post.blog-recommend-post {
+    display: block;
+    height: 18.3rem;
+}
+
+.blog-post.blog-recommend-post .blog-post__img img {
+    height: 8.5rem;
+}
+
+.blog-post.blog-recommend-post .blog-post__icon-text .text,
+.blog-post.blog-recommend-post .blog-post__icon-text .icon {
+    font-size: .8rem;
+}
+
+.blog-post.blog-recommend-post .blog-post__data {
+    margin-bottom: .5rem;
+}
+
+.blog-post.blog-recommend-post .blog-post__info {
+    padding: 1rem;
+}
+
+.blog-post.blog-recommend-post .blog-post__cta {
+    margin-top: 1rem;
+}
+
+.blog-post.blog-recommend-post .blog-post__cta .btn {
+    padding: .45rem 1rem;
+    font-size: 1rem;
 }
 
 /* Responsive Part */
