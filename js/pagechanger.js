@@ -24,7 +24,10 @@ else if (URLPathname == "/index/aboutus") {
     document.title = "About Us" + " - " + webName;
 }
 else if (URLPathname.includes("/article")) {
-    document.title = "About Us" + " - " + webName;
+    document.title = "Article" + " - " + webName;
+}
+else if (URLPathname == "/article/") {
+    document.title = "404 Page Not Found" + " - " + webName;
 }
 else {
     document.title = "404 Page Not Found" + " - " + webName;
