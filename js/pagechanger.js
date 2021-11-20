@@ -23,7 +23,7 @@ else if (URLPathname == "/index/contact") {
 else if (URLPathname == "/index/aboutus") {
     document.title = "About Us" + " - " + webName;
 }
-else if (URLPathname.includes("/article"))) {
+else if (URLPathname.includes("/article")) {
     document.title = "About Us" + " - " + webName;
 }
 else {
