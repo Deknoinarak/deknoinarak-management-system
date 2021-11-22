@@ -12,6 +12,10 @@
             <a href="../../../article">ARTICLE</a>
             <a href="../../../index/aboutus">ABOUT</a>
             <a href="../../../index/contact">CONTACT</a>
+
+            <a href="../../../../../includes/functions/functions.php?setcookie=lang&value=th">TH</a>
+            <span style="color:#FFF;">|</span>
+            <a href="../../../../../includes/functions/functions.php?delcookie=lang">EN</a>
         </div>
 
         <!-- DON'T TOUCH THIS!!!!! -->
