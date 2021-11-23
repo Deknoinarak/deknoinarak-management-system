@@ -1,6 +1,6 @@
 <?php
     // Includes Security To Admin panel
-    require_once "/../inetpub/github/deknoinarak-management-system/dashboard/includes/security.php";
+    //require_once "/../inetpub/github/deknoinarak-management-system/dashboard/includes/security.php";
 ?>
 
 <!DOCTYPE html>
